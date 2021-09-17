@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.930421">
+<testcase classname="validating  functionality of Adactin hotel website." name="validating login  functionality with valid user name and invalid password." time="21.930421">
+<system-out><![CDATA[Given user is on adactin website............................................passed
+When user should enter user name and password...............................passed
+And user should click login button..........................................passed
+When user should select the location,hotel,room type,no of rooms,check in date , checkout date,adults per room and children per room.passed
+And user should click search button.........................................passed
+When user should select hotel...............................................passed
+Then user should  click continue button.....................................passed
+When user enters firstname,lastname,billing address,cardtype,cardno,expiry date,cvv no.passed
+And user should click book now button.......................................passed
+Then order no should be generated...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
